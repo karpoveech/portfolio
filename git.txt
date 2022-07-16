@@ -1,0 +1,11 @@
+git init
+git clone
+git remote add origin git@git.git
+git add
+git commit -m ""
+git branch
+git push origin main
+git checkout
+git pull
+git fetch
+git merge
