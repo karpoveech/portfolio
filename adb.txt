@@ -1,0 +1,12 @@
+adb devices (-s for <SerialNumber> if multiple devices are connected)
+adb install
+adb tcpip 5555
+adb connect <ipaddress>
+adb start-server
+adb kill-server
+adb shell pm list packages (-d for disabled, -e for enabled, -3 for third-party) 
+adb shell ps
+adb uninstall 
+adb shell pm clear (clear the app data)
+adb logcat
+adb exec-out screencap -p > sc.png (-p for .png)
