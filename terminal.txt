@@ -1,0 +1,16 @@
+pwd
+mkdir
+cd
+ls
+touch
+cat
+nano
+vim
+mv
+cp
+curl
+grep
+chmod
+chown
+export
+echo
