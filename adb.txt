@@ -10,3 +10,7 @@ adb uninstall
 adb shell pm clear (clear the app data)
 adb logcat
 adb exec-out screencap -p > sc.png (-p for .png)
+adb shell screenrecord /sdcard/DCIM/vid.mp4 (start recording and save the video to the specified directory)
+adb pull /sdcard/DCIM/vid.mp4 (copy video file to home directory)
+adb shell rm /sdcard/DCIM/vid.mp4
+adb shell am start -a android.intent.action.VIEW -d [YOUR_URL] (opens a specified url on a connected device)
